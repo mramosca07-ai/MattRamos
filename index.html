@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Your Name — Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Resume and projects of Your Name">
+  <link rel="icon" href="data:,"><!-- minimal -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="tagline">Short tagline or role — e.g. Software Engineer</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>Short one-paragraph bio. Replace this with a concise summary of who you are and what you do.</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf" download>Download my resume (PDF)</a></p>
+      <p>Or copy/paste a short highlights section here (experience, skills).</p>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Interest one</li>
+        <li>Interest two</li>
+        <li>Interest three</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Links and short descriptions of a few projects.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Your Name — <a href="#contact">Contact</a></div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
